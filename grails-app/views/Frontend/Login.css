@@ -1,0 +1,343 @@
+.box{
+    margin: 3%
+}
+
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    /* background: #282726; */
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+
+.login-form-2{
+    padding: 9%;
+    margin-top: 3.8%;
+    /* background: #f05837; */
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid rgb(137, 135, 135);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+
+.Recent_share{
+    background: #8f8989;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.top_topics{
+    background: #8f8989;
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding-right: 6px;
+}
+.topics{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.card1{
+    display: flex;
+    border: 2px solid black;
+}
+.image{
+
+    width: 20%;
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.poster_info{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 100%;
+}
+.topic{
+    padding-right: 3%;
+}
+
+.post_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* DropDown */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2x solid black;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  .Login_form{
+    margin-bottom: 5%;
+  }
+
+
+  /* Navbar */
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+
+  .nav-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+  }
+
+  .search-input {
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    color: #444;
+  }
+
+  .search-input::placeholder {
+    color: #888;
+  }
+
+  .search-icon {
+    margin-right: 10px;
+  }
+
+  .close-icon {
+    cursor: pointer;
+  }
+
+  .clogo{
+    display: flex;
+    align-items: center;
+}
+
+.clogo img{
+    padding: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+.dprofile{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.nbtn
+{
+  background-color: #f6ebeb;
+  color: black;
+}
+
+
+  /* Dashboard */
+.user_info{
+     
+  border: 2px solid black;
+  margin: 4px;
+}
+
+.Dash{
+  display: flex;
+  margin: 5% 5% 0% 5%;
+}
+
+.leftD{
+  display: flex;
+  flex-direction: column;
+}
+.userImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+.userCard{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.userData{
+  margin-left: 15px;
+  
+  width: 300px;
+}
+.userData h2{
+  margin-bottom: 5px;
+}
+.userData p{
+  margin-top: 0px;
+}
+
+.userS{
+  display: flex;
+
+}
+
+.S{
+  margin-right: 30px;
+  margin-left: 5px;
+}
+
+.Dsubscription{
+  width: 438px;
+  margin-top: 20px;
+}
+
+.hSub{
+  display: flex;
+  justify-content: space-between;
+  background-color: #888;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.DSubcontent{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Subotherfn{
+   display: flex;
+   
+}
+
+
+#dropdown-menu {
+  width: 150px; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Style for dropdown options (optional) */
+#dropdown-menu option {
+  padding: 10px;
+}
+
+.clogo img {
+  cursor: pointer; 
+  transition: filter 0.3s; 
+}
+
+.clogo img:hover{
+  filter: brightness(150%); 
+
+}
+.clogo div{
+   background-color: #3e8e41;
+}

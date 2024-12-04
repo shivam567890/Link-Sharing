@@ -1,0 +1,47 @@
+.border{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+
+}
+.rightU{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+
+}
+.rightU div{
+    display: flex;
+}
+
+.leftU{
+    display: flex;
+    width: 45%;
+
+}
+
+.chng{
+    width: 90px;
+    height: 40px;
+    margin-top: 10px
+}
+
+.sc{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.usertype{
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+.table1{
+    border: 1px solid black;
+}

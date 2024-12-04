@@ -1,0 +1,132 @@
+.window{
+
+    margin: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+
+  .leftside{
+
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+
+  }
+
+
+  .rightside{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+  }
+
+
+
+.mrgn{
+
+    margin-bottom: 2%
+}
+
+
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.lft_half{
+
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.rgt_half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.rating{
+    margin: 2%;
+}
+
+.topics{
+    margin: 0% !important;
+}
+
+.Recent_share{
+    margin: 0% !important;
+}
+
+
+.mrgin{
+    margin-left: 15%;
+}
+
+ .userid{
+    margin-top: -45px;
+    padding-top: 20px;
+} 
+
+.avg_rating{
+        margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* star_rating */
+
+
+  /* body {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: hsl(137, 46%, 24%);
+    font-family: "Poppins", sans-serif;
+  } */
+
+/*.card {*/
+/*    display: flex; !important;*/
+/*    align-items: center;   !important;*/
+/*    text-align: center;  !important;*/
+/*    justify-content: center;  !important;*/
+/*    max-width: 10rem;  !important;*/
+/*    background: #fff;   !important;*/
+/*    margin: 0 1rem;  !important;*/
+/*    !* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+/*    width: 100%;*/
+/*    border-radius: 0.5rem; *!*/
+/*  }*/
+/*   */
+.card{
+    flex-direction: row;
+}
+  .star {
+    font-size: 3vh;
+    cursor: pointer;
+  }
+   
+  .one {
+    color: rgb(255, 0, 0);
+  }
+   
+  .two {
+    color: rgb(255, 106, 0);
+  }
+   
+  .three {
+    color: rgb(251, 255, 120);
+  }
+   
+  .four {
+    color: rgb(255, 255, 0);
+  }
+   
+  .five {
+    color: rgb(24, 159, 14);
+  }

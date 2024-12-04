@@ -1,0 +1,43 @@
+.Parent{
+    display: flex;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+}
+.lft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rgt{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.Profile{
+    border: 2px solid black;
+}
+.Profile1{
+    background-color: rgb(167, 173, 173);
+    border: 2px solid black;
+    padding-left: 4%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*input[type=text], select {*/
+/*    width: 40%;*/
+/*    padding: 12px 20px;*/
+/*    margin: 8px 0;*/
+/*    display: inline-block;*/
+/*    border: 1px solid #9e9c9c;*/
+/*    border-radius: 4px;*/
+/*    box-sizing: border-box;*/
+/*  }*/
+  .cProfile{
+     padding-left: 4%;
+  }
